@@ -1,0 +1,451 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "salam",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Good morning sir"
+      ],
+      "responses": [
+        "Hey :-)",
+        "wa alaykom salam khouya,ach habate lkhater",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "beslama","See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "beslama khouya",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "chokran","Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure","bla jmil khouya merhba"]
+    },
+    {
+      "tag": "question",
+      "patterns": [
+        "can i ask you a question?",
+        "can you answer me, please ?",
+        "i have a wondering about something  ?"
+      ],
+      "responses": [
+        "it will be my pleasure to answer",
+        "of corse, provide me you question and i won't take time to answer",
+        "give me the question please"
+      ]
+    },
+    {
+      "tag": "cloud",
+      "patterns": [
+        "what is cloud computing ?",
+        "how can we define a cloud ?",
+        "what is cloud computing ?"
+      ],
+      "responses": [
+        "Cloud computing refers to the delivery of computing services—including servers, storage, databases, networking, software, and more—over the internet on a pay-as-you-go basis, allowing users to access resources as needed without significant upfront investment.",
+        " It enables users to scale resources up or down easily based on demand, providing flexibility to accommodate varying workloads without the need for manual intervention. This scalability allows businesses to adapt quickly to changing requirements.",
+        "Cloud computing often involves pooling and sharing of resources across multiple users, allowing for efficient utilization of hardware and reducing costs. Users typically access these resources through web-based interfaces or APIs, enabling convenient and ubiquitous access from any location with internet connectivity."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "How many services offers the cloud ?",
+        "what are the main services offered by cloud computing?",
+        "give me the three cloud computing services?"
+      ],
+      "responses": [
+        "Cloud computing encompasses three main services: Platform as a Service (PaaS), Infrastructure as a Service (IaaS), and Software as a Service (SaaS). PaaS simplifies application development, IaaS offers scalable computing resources, and SaaS provides software access over the internet, collectively transforming how users utilize and manage technology.",
+        "Cloud computing provides three essential services: Platform as a Service (PaaS), Infrastructure as a Service (IaaS), and Software as a Service (SaaS). PaaS aids developers in creating applications, IaaS offers scalable computing resources, and SaaS delivers software applications over the internet. Together, these services empower users to leverage flexible, on-demand computing capabilities without the burden of managing underlying infrastructure or software installations."
+      ]
+    },
+    {
+      "tag": "supervisor",
+      "patterns": [
+        "Tell me about cloud supervisor",
+        "what are the supervisor of wlouf computing"
+      ],
+      "responses": [
+        "This supervisor manages and maintains the cloud infrastructure, including hardware, software, and networking components. CSPs include companies like Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP)"
+      ]
+    },
+    {
+      "tag": "finance",
+      "patterns": [
+        "What are stocks?",
+        "How does the stock market work?",
+        "What is an index fund?"
+      ],
+      "responses": [
+        "Stocks represent ownership in a company. When you buy a stock, you're buying a small piece of that company.",
+        "The stock market is a place where buyers and sellers come together to trade shares of publicly traded companies.",
+        "An index fund is a type of mutual fund or exchange-traded fund (ETF) with a portfolio constructed to match or track the components of a financial market index."
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "What is artificial intelligence?",
+        "How does machine learning work?",
+        "What are the latest technological advancements?"
+      ],
+      "responses": [
+        "Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "Machine learning is a subset of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.",
+        "The latest technological advancements include developments in areas such as quantum computing, 5G technology, and Internet of Things (IoT) devices."
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": [
+        "What is a healthy diet?",
+        "How to improve mental health?",
+        "What are the benefits of regular exercise?"
+      ],
+      "responses": [
+        "A healthy diet includes a variety of fruits, vegetables, whole grains, lean proteins, and healthy fats, while limiting processed foods, sugar, and unhealthy fats.",
+        "Improving mental health can involve strategies like practicing mindfulness, seeking therapy or counseling, maintaining social connections, and engaging in activities that bring joy and relaxation.",
+        "Regular exercise offers numerous benefits, including improved cardiovascular health, weight management, mood enhancement, and reduced risk of chronic diseases like diabetes and heart disease."
+      ]
+    },
+    {
+      "tag": "travel",
+      "patterns": [
+        "What are some travel destinations?",
+        "How to find cheap flights?",
+        "What are the top travel tips?"
+      ],
+      "responses": [
+        "Popular travel destinations include cities like Paris, Tokyo, and New York, as well as natural wonders like the Grand Canyon and the Great Barrier Reef.",
+        "To find cheap flights, consider using flight comparison websites, booking in advance, being flexible with travel dates, and signing up for airline newsletters for deals and promotions.",
+        "Top travel tips include packing light, researching local customs and etiquette, staying hydrated, and keeping important documents like passports and visas secure."
+      ]
+    },
+    {
+      "tag": "movie",
+      "patterns": [
+        "What are some good movies to watch?",
+        "Can you recommend a movie for tonight?",
+        "Tell me about the latest movie releases."
+      ],
+      "responses": [
+        "Some highly rated movies include The Shawshank Redemption, The Godfather, and The Dark Knight.",
+        "If you're looking for something new, you might enjoy watching recent releases like Dune, No Time to Die, or Spider-Man: No Way Home.",
+        "The latest movie releases cover a variety of genres, from action and adventure to drama and comedy. Check out what's playing at your local theaters or available for streaming."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What are some easy recipes to try?",
+        "Can you suggest a healthy meal idea?",
+        "Tell me about popular cuisines from around the world."
+      ],
+      "responses": [
+        "Try making simple dishes like pasta aglio e olio, avocado toast, or grilled cheese sandwiches for quick and easy meals.",
+        "For a healthy meal, consider making a quinoa salad with fresh vegetables, grilled chicken, and a homemade vinaigrette dressing.",
+        "Popular cuisines from around the world include Italian, Mexican, Chinese, Indian, and Japanese cuisine, each offering a unique blend of flavors and ingredients."
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "What's a good song to listen to?",
+        "Can you recommend some music for studying?",
+        "Tell me about popular music genres."
+      ],
+      "responses": [
+        "Some popular songs to listen to include hits like 'Shape of You' by Ed Sheeran, 'Blinding Lights' by The Weeknd, and 'Dance Monkey' by Tones and I.",
+        "For studying or focus, try instrumental music genres like classical, lo-fi hip-hop, or ambient music to help create a conducive atmosphere.",
+        "Popular music genres include pop, rock, hip-hop, jazz, electronic, and classical, each with its own distinct sound and style."
+      ]
+    },
+    {
+      "tag": "sport",
+      "patterns": [
+        "What are some upcoming sports events?",
+        "Can you tell me about famous athletes?",
+        "Tell me about the rules of basketball."
+      ],
+      "responses": [
+        "Upcoming sports events may include major tournaments like the FIFA World Cup, the Olympics, or the Super Bowl, as well as regular season games for various sports leagues.",
+        "Famous athletes from different sports include Cristiano Ronaldo (soccer), LeBron James (basketball), Serena Williams (tennis), and Usain Bolt (track and field).",
+        "Basketball is a team sport played on a rectangular court where two teams try to score points by shooting a ball through the opponent's hoop while following specific rules regarding dribbling, passing, and defense."
+      ]
+    },
+    {
+      "tag": "book",
+      "patterns": [
+        "Can you recommend a good book to read?",
+        "Tell me about popular book genres.",
+        "What are some classic novels?"
+      ],
+      "responses": [
+        "Some highly recommended books include 'To Kill a Mockingbird' by Harper Lee, '1984' by George Orwell, and 'The Great Gatsby' by F. Scott Fitzgerald.",
+        "Popular book genres include fiction, non-fiction, mystery, romance, science fiction, fantasy, and self-help, among others.",
+        "Classic novels include timeless works like 'Pride and Prejudice' by Jane Austen, 'Moby-Dick' by Herman Melville, and 'War and Peace' by Leo Tolstoy."
+      ]
+    },
+    {
+      "tag": "hobbie",
+      "patterns": [
+        "What are some fun hobbies to try?",
+        "Can you suggest a creative hobby?",
+        "Tell me about popular outdoor activities."
+      ],
+      "responses": [
+        "Fun hobbies to try include painting, gardening, cooking, photography, and playing musical instruments.",
+        "For a creative hobby, consider trying your hand at writing poetry, crafting DIY projects, or learning to play a new musical instrument.",
+        "Popular outdoor activities include hiking, camping, biking, fishing, and birdwatching, providing opportunities to connect with nature and stay active."
+      ]
+    },
+    {
+      "tag": "language",
+      "patterns": [
+        "How can I learn a new language?",
+        "Tell me about popular language learning apps.",
+        "What are the benefits of being bilingual?"
+      ],
+      "responses": [
+        "You can learn a new language through various methods such as taking classes, using language learning apps, practicing with native speakers, and immersing yourself in the language and culture.",
+        "Popular language learning apps include Duolingo, Rosetta Stone, Babbel, and Memrise, which offer interactive lessons and activities to help you learn at your own pace.",
+        "Being bilingual or multilingual offers numerous benefits such as improved cognitive function, better job opportunities, enhanced communication skills, and increased cultural awareness and empathy."
+      ]
+    },
+    {
+      "tag": "pet",
+      "patterns": [
+        "What are some popular pet breeds?",
+        "Can you give me tips for pet care?",
+        "Tell me about the benefits of owning a pet."
+      ],
+      "responses": [
+        "Popular pet breeds include dogs like Labrador Retrievers, German Shepherds, and Golden Retrievers, as well as cats like Siamese, Persian, and Maine Coon.",
+        "Tips for pet care include providing a balanced diet, regular exercise, proper grooming, regular veterinary check-ups, and plenty of love and attention.",
+        "Owning a pet can have numerous benefits such as companionship, stress relief, increased physical activity, and improved mental and emotional well-being."
+      ]
+    },
+    {
+      "tag": "environment",
+      "patterns": [
+        "How can I help the environment?",
+        "Tell me about renewable energy sources.",
+        "What are the effects of climate change?"
+      ],
+      "responses": [
+        "You can help the environment by reducing waste, conserving energy, using eco-friendly products, recycling, supporting sustainable practices, and advocating for environmental protection.",
+        "Renewable energy sources include solar power, wind power, hydroelectric power, and geothermal energy, which are sustainable alternatives to fossil fuels and help reduce carbon emissions.",
+        "The effects of climate change include rising temperatures, melting ice caps, sea level rise, extreme weather events, and disruptions to ecosystems and biodiversity, posing significant challenges to human health, safety, and well-being."
+      ]
+    },
+    {
+      "tag": "art",
+      "patterns": [
+        "What are some famous artworks?",
+        "Can you tell me about different art movements?",
+        "How can I improve my artistic skills?"
+      ],
+      "responses": [
+        "Famous artworks include paintings like the Mona Lisa by Leonardo da Vinci, The Starry Night by Vincent van Gogh, and The Scream by Edvard Munch, as well as sculptures like Michelangelo's David and Rodin's The Thinker.",
+        "Different art movements throughout history include Renaissance, Baroque, Romanticism, Impressionism, Cubism, Surrealism, and Abstract Expressionism, each characterized by unique styles, themes, and techniques.",
+        "You can improve your artistic skills through practice, experimentation, studying the works of other artists, taking art classes or workshops, and seeking feedback from peers or mentors."
+      ]
+    },
+    {
+      "tag": "history",
+      "patterns": [
+        "Tell me about ancient civilizations",
+        "What happened during the Renaissance period?",
+        "Can you recommend a good history book?"
+      ],
+      "responses": [
+        "Ancient civilizations like the Egyptians, Greeks, Romans, and Mesopotamians made significant contributions to human history in areas such as art, architecture, philosophy, and governance.",
+        "The Renaissance was a period of cultural rebirth in Europe characterized by renewed interest in art, literature, science, and learning, marking the transition from the Middle Ages to the modern era.",
+        "Recommended history books include 'A Short History of Nearly Everything' by Bill Bryson, 'Guns, Germs, and Steel' by Jared Diamond, and 'The Rise and Fall of the Third Reich' by William L. Shirer."
+      ]
+    },
+    {
+      "tag": "fashion",
+      "patterns": [
+        "What are the latest fashion trends?",
+        "Can you suggest a stylish outfit for a special occasion?",
+        "Tell me about famous fashion designers."
+      ],
+      "responses": [
+        "Current fashion trends include oversized blazers, vintage-inspired denim, statement sleeves, and bold prints like animal prints and florals.",
+        "For a special occasion, consider wearing a classic black dress, a tailored suit, or a statement outfit featuring sequins or metallic accents.",
+        "Famous fashion designers include Coco Chanel, Giorgio Armani, Karl Lagerfeld, Christian Dior, and Alexander McQueen, each known for their unique style and influence on the fashion industry."
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": [
+        "What are some recent technological advancements?",
+        "Tell me about emerging technologies.",
+        "Can you recommend a tech blog to follow?"
+      ],
+      "responses": [
+        "Recent technological advancements include developments in areas such as artificial intelligence, blockchain technology, virtual reality, and 3D printing, revolutionizing various industries and aspects of daily life.",
+        "Emerging technologies to watch include quantum computing, autonomous vehicles, augmented reality, and gene editing technologies like CRISPR.",
+        "Recommended tech blogs to follow include TechCrunch, Wired, The Verge, and Gizmodo, providing updates on the latest tech news, reviews, and analysis."
+      ]
+    },
+    {
+      "tag": "space",
+      "patterns": [
+        "Tell me about the solar system",
+        "What is the latest discovery in space?",
+        "Can you recommend a space documentary to watch?"
+      ],
+      "responses": [
+        "The solar system consists of the Sun and the celestial bodies that orbit it, including planets like Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune, as well as moons, asteroids, and comets.",
+        "Recent discoveries in space include the detection of exoplanets in habitable zones, evidence of water on Mars, and the observation of gravitational waves from colliding black holes and neutron stars.",
+        "Recommended space documentaries include 'Cosmos: A Spacetime Odyssey', 'The Farthest: Voyager in Space', and 'Apollo 11', offering insights into the wonders of the universe and humanity's exploration of space."
+      ]
+    },
+    {
+      "tag": "science",
+      "patterns": [
+        "What is the scientific method?",
+        "Can you explain the concept of evolution?",
+        "Tell me about famous scientists."
+      ],
+      "responses": [
+        "The scientific method is a systematic approach to inquiry that involves making observations, forming hypotheses, conducting experiments, and analyzing data to draw conclusions and refine understanding.",
+        "Evolution is the process by which species of organisms undergo genetic changes over successive generations, leading to the emergence of new species and the adaptation of organisms to their environments.",
+        "Famous scientists include Isaac Newton, Albert Einstein, Marie Curie, Charles Darwin, and Galileo Galilei, each known for their groundbreaking discoveries and contributions to various fields of science."
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "How can I improve my study habits?",
+        "Tell me about online learning platforms.",
+        "Can you recommend a good educational podcast?"
+      ],
+      "responses": [
+        "You can improve your study habits by creating a study schedule, setting specific goals, staying organized, using active learning techniques, and seeking help when needed.",
+        "Popular online learning platforms include Coursera, edX, Khan Academy, and Udemy, offering courses on a wide range of subjects taught by experts from around the world.",
+        "Recommended educational podcasts include TED Talks Education, Stuff You Should Know, The Tim Ferriss Show, and The EdSurge Podcast, covering topics related to learning, teaching, and personal development."
+      ]
+    },
+    {
+      "tag": "career",
+      "patterns": [
+        "How can I advance in my career?",
+        "Tell me about job interview tips.",
+        "Can you recommend a career development book?"
+      ],
+      "responses": [
+        "To advance in your career, consider setting clear goals, seeking opportunities for growth and learning, building professional networks, and demonstrating leadership skills and initiative.",
+        "Job interview tips include researching the company, practicing common interview questions, dressing appropriately, arriving on time, and showcasing your skills and experiences confidently.",
+        "Recommended career development books include 'Lean In: Women, Work, and the Will to Lead' by Sheryl Sandberg, 'The 7 Habits of Highly Effective People' by Stephen R. Covey, and 'Never Eat Alone' by Keith Ferrazzi, offering insights and strategies for personal and professional success."
+      ]
+    },
+    {
+      "tag": "home",
+      "patterns": [
+        "How can I improve my home decor?",
+        "Tell me about DIY home improvement projects.",
+        "Can you recommend a home organization tip?"
+      ],
+      "responses": [
+        "You can improve your home decor by adding personal touches, incorporating color and texture, decluttering, and rearranging furniture to create a cohesive and inviting space.",
+        "DIY home improvement projects include painting walls, installing shelves, refinishing furniture, building outdoor structures like pergolas or raised garden beds, and upgrading fixtures and appliances.",
+        "A home organization tip is to designate specific storage areas for different items, such as using bins or baskets for toys, installing hooks for coats and bags, and labeling containers for easy identification and access."
+      ]
+    },
+    {
+      "tag": "relationship",
+      "patterns": [
+        "How can I improve my communication in relationships?",
+        "Tell me about healthy relationship habits.",
+        "Can you recommend a book on building strong relationships?"
+      ],
+      "responses": [
+        "To improve communication in relationships, practice active listening, express your feelings and needs clearly, be empathetic and understanding, and resolve conflicts constructively.",
+        "Healthy relationship habits include trust, communication, mutual respect, compromise, support, and shared values and goals.",
+        "Recommended books on building strong relationships include 'The 5 Love Languages' by Gary Chapman, 'Attached: The New Science of Adult Attachment' by Amir Levine and Rachel Heller, and 'Nonviolent Communication: A Language of Life' by Marshall B. Rosenberg, offering insights and strategies for creating fulfilling and lasting relationships."
+      ]
+    },
+    {
+      "tag": "trivia",
+      "patterns": [
+        "Can you tell me an interesting fact?",
+        "What's a fun trivia question?",
+        "Tell me about a historical event."
+      ],
+      "responses": [
+        "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible!",
+        "Here's a trivia question: What is the only mammal capable of sustained flight?",
+        "One historical event is the signing of the Declaration of Independence in 1776, which marked the birth of the United States of America as an independent nation."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Do you know any funny jokes?",
+        "Can you make me laugh?"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!"
+      ]
+    },
+    {
+      "tag": "pun",
+      "patterns": [
+        "Tell me a pun",
+        "Do you have any puns?",
+        "Can you share a clever wordplay?"
+      ],
+      "responses": [
+        "I'm reading a book on anti-gravity. It's impossible to put down!",
+        "I used to be a baker, but I couldn't make enough dough.",
+        "I'm trying to organize a hide and seek competition, but it's hard to find good players."
+      ]
+    },
+    {
+      "tag": "funny_storie",
+      "patterns": [
+        "Tell me a funny story",
+        "Do you have any humorous anecdotes?",
+        "Share a comical experience."
+      ],
+      "responses": [
+        "Once, I tried to impress my date by holding a door open for her. It was the restroom door.",
+        "I once mistook superglue for lip balm. My lips are sealed about the rest of that story!",
+        "I went to a zoo, but the only animal they had was a dog. It was a shih tzu."
+      ]
+    },
+    {
+      "tag": "comedy_movies",
+      "patterns": [
+        "Recommend a funny movie",
+        "What's a hilarious movie to watch?",
+        "Tell me about a comedy film."
+      ],
+      "responses": [
+        "Some funny movies to watch include 'Monty Python and the Holy Grail', 'The Hangover', and 'Superbad'.",
+        "For a good laugh, you might enjoy watching 'Anchorman: The Legend of Ron Burgundy', 'Dumb and Dumber', or 'Bridesmaids'.",
+        "'Airplane!', 'The Naked Gun', and 'Groundhog Day' are classic comedy films that never fail to entertain."
+      ]
+    }
+  ]
+}
